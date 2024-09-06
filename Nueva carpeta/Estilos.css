@@ -1,0 +1,61 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#contenedor-principal {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#datos-personales {
+    text-align: center;
+}
+
+#foto-perfil {
+    width: 170px;
+    height: 180px;
+    border-radius: 20%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8d8d8;
+}
